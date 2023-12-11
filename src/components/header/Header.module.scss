@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 1rem;
+  font-family: var(--ff-accent);
+  font-size: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  img {
+    display: inline-block;
+    width: 50px;
+  }
+  h1 a {
+    display: flex;
+    align-items: center;
+    span {
+      font-size: 60px;
+      color: var(--crl-primary-400);
+      margin-top: -10px;
+      margin-left: 10px;
+    }
+  }
+  .primary-navigation {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    span {
+      padding: 1rem;
+    }
+  }
+} // wrapper close

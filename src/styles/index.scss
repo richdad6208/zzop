@@ -1,0 +1,11 @@
+@import "./_reset";
+@import "./_variables";
+@import "./_fonts";
+
+body {
+  font-family: var(--ff-primary);
+}
+
+main {
+  padding-block: 2rem;
+}
