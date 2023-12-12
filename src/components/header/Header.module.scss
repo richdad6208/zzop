@@ -28,4 +28,19 @@
       padding: 1rem;
     }
   }
+  .login {
+    cursor: pointer;
+  }
+  .user-photo {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    img {
+      width: 50px;
+      border-radius: 100%;
+    }
+    span {
+      margin-bottom: -5px;
+    }
+  }
 } // wrapper close
